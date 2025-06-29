@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace BeastBytes\Yii\Tracy\Panel\User;
 
+use BeastBytes\Yii\Tracy\ViewTrait;
 use Yiisoft\Rbac\AssignmentsStorageInterface;
 use Yiisoft\Rbac\ItemsStorageInterface;
 use Yiisoft\Rbac\Manager;
@@ -11,6 +12,8 @@ use Yiisoft\User\CurrentUser;
 
 class Panel extends \BeastBytes\Yii\Tracy\Panel\Panel
 {
+    use ViewTrait;
+
     private const ICON_AUTHORISED = <<<ICON
 <svg 
     xmlns="http://www.w3.org/2000/svg"
