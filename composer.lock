@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/beastbytes/yii-tracy.git",
-                "reference": "283f50b4d1098e93c8a976a5ccfacd18f2e9bb76"
+                "reference": "fe9e68daee1fc7867501062840993702b22c6230"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/beastbytes/yii-tracy/zipball/283f50b4d1098e93c8a976a5ccfacd18f2e9bb76",
-                "reference": "283f50b4d1098e93c8a976a5ccfacd18f2e9bb76",
+                "url": "https://api.github.com/repos/beastbytes/yii-tracy/zipball/fe9e68daee1fc7867501062840993702b22c6230",
+                "reference": "fe9e68daee1fc7867501062840993702b22c6230",
                 "shasum": ""
             },
             "require": {
@@ -43,8 +43,7 @@
                 "config-plugin": {
                     "di-web": "di-web.php",
                     "events-web": "events-web.php",
-                    "params-web": "params-web.php",
-                    "di-providers-web": "di-providers-web.php"
+                    "params-web": "params-web.php"
                 },
                 "config-plugin-options": {
                     "source-directory": "config"
@@ -69,7 +68,7 @@
                 "issues": "https://github.com/beastbytes/yii-tracy/issues",
                 "source": "https://github.com/beastbytes/yii-tracy/tree/main"
             },
-            "time": "2025-06-29T15:37:03+00:00"
+            "time": "2025-06-29T22:42:13+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
