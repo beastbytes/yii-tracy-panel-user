@@ -54,14 +54,16 @@ ICON;
     private $userParameters;
 
     /**
-     * @param callable $id2pk Converts string ID to databse primary key.
+     * @param callable|null $id2pk Converts a string ID to a database primary key.
      * Example, if using a UUID that is stored in binary format.
-     * @param callable $tabValue Function to get the Auth tab value displayed on the debugger bar.
-     * If not defined the current user user ID is shown. The signature is (IdentityInterface $identity); returns string
-     * @param callable $userParameters Function to get user parameters to show on the panel
-     * from the current user identity. The signature is (IdentityInterface $identity); returns array{string: string}
+     * The signature is (string $id); returns string
+     * @param callable|null $tabValue Function that returns the value displayed on the debugger bar.
+     * If not defined, the current user ID is shown.
+     * The signature is (IdentityInterface $identity); returns string
+     * @param callable|null $userParameters Function that returns additional user parameters to show on the panel.
+     * The signature is (IdentityInterface $identity); returns array{string: string}
      */
-    public function __construct(mixed $id2pk = null, $tabValue = null, mixed $userParameters = null)
+    public function __construct(callable $id2pk = null, callable $tabValue = null, callable $userParameters = null)
     {
         if (is_callable($id2pk)) {
             $this->id2pk = $id2pk;
@@ -106,12 +108,12 @@ ICON;
             if ($userId === null) {
                 $guestRoleName = $rbacManager->getGuestRoleName();
 
-                $panelParameters['roles'] = $guestRoleName
+                $panelParameters['roles'] = $guestRoleName !== null
                     ? [$rbacManager->getGuestRole()]
                     : []
                 ;
 
-                $panelParameters['permissions'] = $guestRoleName
+                $panelParameters['permissions'] = $guestRoleName !== null
                     ? $rbacManager->getPermissionsByRoleName($guestRoleName)
                     : []
                 ;
