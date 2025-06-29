@@ -10,7 +10,7 @@ use Yiisoft\Rbac\ItemsStorageInterface;
 use Yiisoft\Rbac\Manager;
 use Yiisoft\User\CurrentUser;
 
-class Panel extends \BeastBytes\Yii\Tracy\Panel\Panel
+final class Panel extends \BeastBytes\Yii\Tracy\Panel\Panel
 {
     use ViewTrait;
 
