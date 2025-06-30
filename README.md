@@ -1,5 +1,6 @@
-The Yii Tracy Panel User package is panel for [Yii Tracy](https://github.com/beastbytes/yii-tracy),
-which integrates the [Tracy debugging tool](https://tracy.nette.org/)into [Yii3](https://www.yiiframework.com/).
+The Yii Tracy Panel User package is a panel for [Yii Tracy](https://github.com/beastbytes/yii-tracy)
+(integration of the [Tracy debugging tool](https://tracy.nette.org/)into [Yii3](https://www.yiiframework.com/))
+that provides information about the current user.
 
 ## Requirements
 - PHP 8.1 or higher
@@ -16,9 +17,7 @@ or add the following to the `require` section of your `composer.json`
 "beastbytes/yii-tracy-panel-user": "<version_constraint>"
 ```
 
-## Description
-The User Panel provides information about the current user.
-
+## Information Displayed
 ### Tab
 By default the current user ID is shown. This can be changed by setting `StabValue` in the constructor (see Tab Value).
 
