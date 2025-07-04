@@ -165,7 +165,7 @@ ICON;
     public function tabParameters(): array
     {
         if ($this->getCurrentUser()->isGuest()) {
-            $value = 'Guest';
+            $value = null;
         } else {
             $value = is_callable($this->tabValue)
                 ? ($this->tabValue)($this->getCurrentUser()->getIdentity())
