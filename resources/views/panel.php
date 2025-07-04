@@ -1,16 +1,22 @@
 <?php
 /** 
- * @var \Yiisoft\Userr\CurrentUser $currentUser
+ * @var \Yiisoft\User\CurrentUser $currentUser
  * @var \Yiisoft\Rbac\Permission[] $permissions
  * @var \Yiisoft\Rbac\Role[] $roles
+ * @var \Yiisoft\Translator\TranslatorInterface $translator
  * @var array $userParameters
  */
 ?>
 <table>
     <tbody>
     <tr>
-        <th>ID</th>
-        <td><?= $currentUser->isGuest() ? 'Guest' : $currentUser->getId() ?></td>
+        <th><?= $translator->translate('heading.user.id', category: 'tracy-user') ?></th>
+        <td>
+            <?= $currentUser->isGuest()
+                ? $translator->translate('value.user.guest', category: 'tracy-user')
+                : $currentUser->getId()
+            ?>
+        </td>
     </tr>
     <?php foreach ($userParameters as $key => $value): ?>
     <tr>
@@ -19,7 +25,7 @@
     </tr>
     <?php endforeach; ?>
     <tr>
-        <th>Roles<?= count($roles) !== 1 ? 's' : '' ?></th>
+        <th><?= $translator->translate('heading.user.roles', category: 'tracy-user') ?></th>
         <td>
             <ul>
                 <?php foreach ($roles as $role): ?>
@@ -29,7 +35,7 @@
         </td>
     </tr>
     <tr>
-        <th>Permissions<?= count($permissions) !== 1 ? 's' : '' ?></th>
+        <th><?= $translator->translate('heading.user.permissions', category: 'tracy-user') ?></th>
         <td>
             <ul>
                 <?php foreach ($permissions as $permission): ?>
