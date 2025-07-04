@@ -7,12 +7,13 @@
  * @var array $userParameters
  */
 
+use BeastBytes\Yii\Tracy\Panel\User\Panel;
 use Yiisoft\Rbac\Permission;
 use Yiisoft\Rbac\Role;
 use Yiisoft\Translator\TranslatorInterface;
 use Yiisoft\User\CurrentUser;
 
-$translator = $translator->withDefaultCategory('tracy-user');
+$translator = $translator->withDefaultCategory(Panel::MESSAGE_CATEGORY);
 ?>
 <table>
     <tbody>

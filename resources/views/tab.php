@@ -1,9 +1,15 @@
 <?php
 /**
- * @var \Yiisoft\Translator\TranslatorInterface $translator
  * @var ?string $value
+ *  @var TranslatorInterface $translator
  */
-echo $translator->translate('user.heading.user', category: 'tracy-user')
+
+use BeastBytes\Yii\Tracy\Panel\User\Panel;
+use Yiisoft\Translator\TranslatorInterface;
+
+$translator = $translator->withDefaultCategory(Panel::MESSAGE_CATEGORY);
+
+echo $translator->translate('user.heading.user')
     . ': '
-    . ($value === null ? $translator->translate('user.value.guest', category: 'tracy-user') : $value)
+    . ($value === null ? $translator->translate('user.value.guest') : $value)
 ;
