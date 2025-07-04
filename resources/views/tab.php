@@ -3,7 +3,7 @@
  * @var \Yiisoft\Translator\TranslatorInterface $translator
  * @var ?string $value
  */
-echo $translator->translate('heading.user.user', category: 'tracy-user')
+echo $translator->translate('user.heading.user', category: 'tracy-user')
     . ': '
-    . ($value === null ? $translator->translate('value.user.guest', category: 'tracy-user') : $value)
+    . ($value === null ? $translator->translate('user.value.guest', category: 'tracy-user') : $value)
 ;

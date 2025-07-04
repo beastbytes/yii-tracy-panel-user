@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "359df905d472d0f287047f76a98d2bef",
+    "content-hash": "c5b3479776ff08e4619daacbbd69363d",
     "packages": [
         {
             "name": "beastbytes/yii-tracy",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/beastbytes/yii-tracy.git",
-                "reference": "c2094356f3090ede6ac2c3d1127f6b7b46ecf983"
+                "reference": "f365323db2ec55f2557e6318a7b25a2928bc877e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/beastbytes/yii-tracy/zipball/c2094356f3090ede6ac2c3d1127f6b7b46ecf983",
-                "reference": "c2094356f3090ede6ac2c3d1127f6b7b46ecf983",
+                "url": "https://api.github.com/repos/beastbytes/yii-tracy/zipball/f365323db2ec55f2557e6318a7b25a2928bc877e",
+                "reference": "f365323db2ec55f2557e6318a7b25a2928bc877e",
                 "shasum": ""
             },
             "require": {
@@ -26,6 +26,7 @@
                 "tracy/tracy": "^3.0-dev",
                 "yiisoft/aliases": "^3.0",
                 "yiisoft/factory": "^1.0",
+                "yiisoft/translator": "^3.0",
                 "yiisoft/view": "^12.0",
                 "yiisoft/yii-debug": "dev-master",
                 "yiisoft/yii-http": "^1.0"
@@ -69,7 +70,7 @@
                 "issues": "https://github.com/beastbytes/yii-tracy/issues",
                 "source": "https://github.com/beastbytes/yii-tracy/tree/main"
             },
-            "time": "2025-07-03T11:06:49+00:00"
+            "time": "2025-07-04T15:15:58+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -4210,16 +4211,16 @@
         },
         {
             "name": "myclabs/deep-copy",
-            "version": "1.13.1",
+            "version": "1.13.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/myclabs/DeepCopy.git",
-                "reference": "1720ddd719e16cf0db4eb1c6eca108031636d46c"
+                "reference": "d25e62e636b0a9b01e3bdebb7823b474876dd829"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/1720ddd719e16cf0db4eb1c6eca108031636d46c",
-                "reference": "1720ddd719e16cf0db4eb1c6eca108031636d46c",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/d25e62e636b0a9b01e3bdebb7823b474876dd829",
+                "reference": "d25e62e636b0a9b01e3bdebb7823b474876dd829",
                 "shasum": ""
             },
             "require": {
@@ -4258,7 +4259,7 @@
             ],
             "support": {
                 "issues": "https://github.com/myclabs/DeepCopy/issues",
-                "source": "https://github.com/myclabs/DeepCopy/tree/1.13.1"
+                "source": "https://github.com/myclabs/DeepCopy/tree/1.13.2"
             },
             "funding": [
                 {
@@ -4266,7 +4267,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-04-29T12:36:36+00:00"
+            "time": "2025-07-04T14:07:32+00:00"
         },
         {
             "name": "netresearch/jsonmapper",

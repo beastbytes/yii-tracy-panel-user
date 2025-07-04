@@ -3,9 +3,11 @@
 declare(strict_types=1);
 
 return [
-    'heading.user.id' => 'ID',
-    'heading.user.permissions' => 'Permissions',
-    'heading.user.roles' => 'Roles',
-    'heading.user.user' => 'User',
-    'value.user.guest' => 'Guest',
+    'user.heading.id' => 'ID',
+    'user.heading.permissions' => 'Permissions',
+    'user.heading.roles' => 'Roles',
+    'user.heading.user' => 'User',
+    'user.title.panel' => 'Current User',
+    'user.title.tab' => 'Current User',
+    'user.value.guest' => 'Guest',
 ];

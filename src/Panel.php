@@ -49,8 +49,6 @@ ICON;
 </svg> 
 ICON;
 
-    private const TITLE = 'Current User';
-
     private ?CurrentUser $currentUser = null;
     private $id2pk;
     private $tabValue;
@@ -142,9 +140,12 @@ ICON;
         return $panelParameters;
     }
 
-    public function panelTitle(): string
+    public function panelTitle(): array
     {
-        return self::TITLE;
+        return [
+            'id' => 'user.panel.title',
+            'category' => 'tracy-user',
+        ];
     }
 
     /**
@@ -176,9 +177,12 @@ ICON;
         return ['value' => $value];
     }
 
-    public function tabTitle(): string
+    public function tabTitle(): array
     {
-        return self::TITLE;
+        return [
+            'id' => 'user.tab.title',
+            'category' => 'tracy-user',
+       ];
     }
 
     private function getCurrentUser(): CurrentUser

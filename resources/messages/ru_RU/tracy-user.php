@@ -3,9 +3,11 @@
 declare(strict_types=1);
 
 return [
-    'heading.user.id' => 'ID',
-    'heading.user.permissions' => 'Разрешения',
-    'heading.user.roles' => 'Роли',
-    'heading.user.user' => 'Пользователь',
-    'value.user.guest' => 'Гость',
+    'user.heading.id' => 'ID',
+    'user.heading.permissions' => 'Разрешения',
+    'user.heading.roles' => 'Роли',
+    'user.heading.user' => 'Пользователь',
+    'user.title.panel' => 'Текущий пользователь',
+    'user.title.tab' => 'Текущий пользователь',
+    'user.value.guest' => 'Гость',
 ];

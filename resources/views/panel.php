@@ -10,10 +10,10 @@
 <table>
     <tbody>
     <tr>
-        <th><?= $translator->translate('heading.user.id', category: 'tracy-user') ?></th>
+        <th><?= $translator->translate('user.heading.id', category: 'tracy-user') ?></th>
         <td>
             <?= $currentUser->isGuest()
-                ? $translator->translate('value.user.guest', category: 'tracy-user')
+                ? $translator->translate('user.value.guest', category: 'tracy-user')
                 : $currentUser->getId()
             ?>
         </td>
@@ -25,7 +25,7 @@
     </tr>
     <?php endforeach; ?>
     <tr>
-        <th><?= $translator->translate('heading.user.roles', category: 'tracy-user') ?></th>
+        <th><?= $translator->translate('user.heading.roles', category: 'tracy-user') ?></th>
         <td>
             <ul>
                 <?php foreach ($roles as $role): ?>
@@ -35,7 +35,7 @@
         </td>
     </tr>
     <tr>
-        <th><?= $translator->translate('heading.user.permissions', category: 'tracy-user') ?></th>
+        <th><?= $translator->translate('user.heading.permissions', category: 'tracy-user') ?></th>
         <td>
             <ul>
                 <?php foreach ($permissions as $permission): ?>
