@@ -145,7 +145,7 @@ ICON;
     public function panelTitle(): array
     {
         return [
-            'id' => 'user.panel.title',
+            'id' => 'user.title.panel',
             'category' => 'tracy-user',
         ];
     }
@@ -182,7 +182,7 @@ ICON;
     public function tabTitle(): array
     {
         return [
-            'id' => 'user.tab.title',
+            'id' => 'user.title.tab',
             'category' => 'tracy-user',
        ];
     }
