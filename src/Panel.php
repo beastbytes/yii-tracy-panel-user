@@ -79,7 +79,7 @@ ICON;
         }
     }
 
-    public function panelParameters(): array
+    protected function panelParameters(): array
     {
         $panelParameters = [
             'currentUser' => $this->getCurrentUser(),
@@ -142,11 +142,11 @@ ICON;
         return $panelParameters;
     }
 
-    public function panelTitle(): array
+    protected function panelTitle(): array
     {
         return [
             'id' => 'user.title.panel',
-            'category' => 'tracy-user',
+            'category' => self::MESSAGE_CATEGORY,
         ];
     }
 
@@ -157,7 +157,7 @@ ICON;
      * }
      * @return string
      */
-    public function tabIcon(array $parameters): string
+    protected function tabIcon(array $parameters): string
     {
         return $this->getCurrentUser()->isGuest()
             ? self::ICON_GUEST
@@ -179,11 +179,11 @@ ICON;
         return ['value' => $value];
     }
 
-    public function tabTitle(): array
+    protected function tabTitle(): array
     {
         return [
             'id' => 'user.title.tab',
-            'category' => 'tracy-user',
+            'category' => self::MESSAGE_CATEGORY,
        ];
     }
 
