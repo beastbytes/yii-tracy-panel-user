@@ -20,7 +20,9 @@
   },
   "require-dev": {
     "phpunit/phpunit": "^10.0",
-    "vimeo/psalm": "^5.0"
+    "vimeo/psalm": "^5.0",
+    "yiisoft/rbac-php": "dev-master",
+    "yiisoft/test-support": "^3.0"
   },
   "autoload": {
     "psr-4": {

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c5b3479776ff08e4619daacbbd69363d",
+    "content-hash": "9788c2960945998b20e0954ac99415ba",
     "packages": [
         {
             "name": "beastbytes/yii-tracy",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/beastbytes/yii-tracy.git",
-                "reference": "f365323db2ec55f2557e6318a7b25a2928bc877e"
+                "reference": "1c39aa9be2bfacd1e0bd90df5aad795ff1cfe600"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/beastbytes/yii-tracy/zipball/f365323db2ec55f2557e6318a7b25a2928bc877e",
-                "reference": "f365323db2ec55f2557e6318a7b25a2928bc877e",
+                "url": "https://api.github.com/repos/beastbytes/yii-tracy/zipball/1c39aa9be2bfacd1e0bd90df5aad795ff1cfe600",
+                "reference": "1c39aa9be2bfacd1e0bd90df5aad795ff1cfe600",
                 "shasum": ""
             },
             "require": {
@@ -70,7 +70,7 @@
                 "issues": "https://github.com/beastbytes/yii-tracy/issues",
                 "source": "https://github.com/beastbytes/yii-tracy/tree/main"
             },
-            "time": "2025-07-04T15:15:58+00:00"
+            "time": "2025-07-05T17:01:48+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -4211,16 +4211,16 @@
         },
         {
             "name": "myclabs/deep-copy",
-            "version": "1.13.2",
+            "version": "1.13.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/myclabs/DeepCopy.git",
-                "reference": "d25e62e636b0a9b01e3bdebb7823b474876dd829"
+                "reference": "faed855a7b5f4d4637717c2b3863e277116beb36"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/d25e62e636b0a9b01e3bdebb7823b474876dd829",
-                "reference": "d25e62e636b0a9b01e3bdebb7823b474876dd829",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/faed855a7b5f4d4637717c2b3863e277116beb36",
+                "reference": "faed855a7b5f4d4637717c2b3863e277116beb36",
                 "shasum": ""
             },
             "require": {
@@ -4259,7 +4259,7 @@
             ],
             "support": {
                 "issues": "https://github.com/myclabs/DeepCopy/issues",
-                "source": "https://github.com/myclabs/DeepCopy/tree/1.13.2"
+                "source": "https://github.com/myclabs/DeepCopy/tree/1.13.3"
             },
             "funding": [
                 {
@@ -4267,7 +4267,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-07-04T14:07:32+00:00"
+            "time": "2025-07-05T12:25:42+00:00"
         },
         {
             "name": "netresearch/jsonmapper",
@@ -6413,12 +6413,145 @@
                 "source": "https://github.com/webmozarts/assert/tree/1.11.0"
             },
             "time": "2022-06-03T18:03:27+00:00"
+        },
+        {
+            "name": "yiisoft/rbac-php",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/rbac-php.git",
+                "reference": "85c3b574dff3d771660659ed199dc12ee2ba57bd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/rbac-php/zipball/85c3b574dff3d771660659ed199dc12ee2ba57bd",
+                "reference": "85c3b574dff3d771660659ed199dc12ee2ba57bd",
+                "shasum": ""
+            },
+            "require": {
+                "php": "8.1 - 8.4",
+                "yiisoft/rbac": "^2.1",
+                "yiisoft/var-dumper": "^1.7"
+            },
+            "require-dev": {
+                "maglnet/composer-require-checker": "^4.7.1",
+                "phpunit/phpunit": "^10.5.45",
+                "psr/clock": "^1.0",
+                "rector/rector": "^2.0.11",
+                "roave/infection-static-analysis-plugin": "^1.35",
+                "spatie/phpunit-watcher": "^1.24",
+                "vimeo/psalm": "^5.26.1 || ^6.10",
+                "yiisoft/files": "^1.0.2"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Yiisoft\\Rbac\\Php\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Yii RBAC PHP File Storage",
+            "homepage": "https://www.yiiframework.com/",
+            "keywords": [
+                "rbac",
+                "storage",
+                "yii"
+            ],
+            "support": {
+                "chat": "https://t.me/yii3en",
+                "forum": "https://www.yiiframework.com/forum/",
+                "irc": "ircs://irc.libera.chat:6697/yii",
+                "issues": "https://github.com/yiisoft/rbac/issues",
+                "source": "https://github.com/yiisoft/rbac",
+                "wiki": "https://www.yiiframework.com/wiki/"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sponsors/yiisoft",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/yiisoft",
+                    "type": "opencollective"
+                }
+            ],
+            "time": "2025-04-06T14:10:15+00:00"
+        },
+        {
+            "name": "yiisoft/test-support",
+            "version": "3.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/test-support.git",
+                "reference": "3b07d129cbbcb38e006a640c85c9b5ac9eb7cf4a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/test-support/zipball/3b07d129cbbcb38e006a640c85c9b5ac9eb7cf4a",
+                "reference": "3b07d129cbbcb38e006a640c85c9b5ac9eb7cf4a",
+                "shasum": ""
+            },
+            "require": {
+                "php": "~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0",
+                "psr/container": "^1.0 || ^2.0",
+                "psr/event-dispatcher": "^1.0",
+                "psr/log": "^2.0|^3.0",
+                "psr/simple-cache": "^2.0|^3.0"
+            },
+            "require-dev": {
+                "maglnet/composer-require-checker": "^4.4",
+                "phpunit/phpunit": "^9.6.22",
+                "rector/rector": "^2.0.9",
+                "roave/infection-static-analysis-plugin": "^1.25",
+                "spatie/phpunit-watcher": "^1.23.6",
+                "vimeo/psalm": "^4.30 || ^5.26.1 || ^6.8.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Yiisoft\\Test\\Support\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Supporting tools for testing",
+            "homepage": "https://www.yiiframework.com/",
+            "keywords": [
+                "testing",
+                "yii"
+            ],
+            "support": {
+                "chat": "https://t.me/yii3en",
+                "forum": "https://www.yiiframework.com/forum/",
+                "irc": "ircs://irc.libera.chat:6697/yii",
+                "issues": "https://github.com/yiisoft/test-support/issues?state=open",
+                "source": "https://github.com/yiisoft/test-support",
+                "wiki": "https://www.yiiframework.com/wiki/"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sponsors/yiisoft",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/yiisoft",
+                    "type": "opencollective"
+                }
+            ],
+            "time": "2025-02-23T17:02:43+00:00"
         }
     ],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "beastbytes/yii-tracy": 20
+        "beastbytes/yii-tracy": 20,
+        "yiisoft/rbac-php": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
