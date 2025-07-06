@@ -17,7 +17,7 @@ final class Panel extends \BeastBytes\Yii\Tracy\Panel\Panel
     public const MESSAGE_CATEGORY = 'tracy-user';
 
     private const ICON_AUTHORISED = <<<ICON
-<svg 
+<svg
     xmlns="http://www.w3.org/2000/svg"
     height="24px"
     viewBox="0 -960 960 960"
@@ -48,7 +48,7 @@ ICON;
         61.5L666-408q18 7 35.5 14t34.5 16ZM568-506l-59-59q23-9 37-29.5t14-45.5q0-33-23.5-56.5T480-720q-25 0-45.5 
         14T405-669l-59-59q23-34 58-53t76-19q66 0 113 47t47 113q0 41-19 76t-53 58Zm38 266H240h366ZM457-617Z"
     />
-</svg> 
+</svg>
 ICON;
 
     private ?CurrentUser $currentUser = null;
