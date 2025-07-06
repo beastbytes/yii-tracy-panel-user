@@ -36,11 +36,11 @@ By default, the current user ID is shown on the tab. This can be changed by sett
 `$tabValue` is an anonymous function that takes the current identity (`IdentityInterface`) as its parameter
 and returns a string.
 
-#### Panel Parameters
-Additional information about the current user can be shown on the user panel by setting `$panelparameters`
+#### User Parameters
+Additional information about the current user can be shown on the user panel by setting `$userparameters`
 in the constructor.
 
-`$panelParameters` is an anonymous function that takes the current identity (`IdentityInterface`) as its parameter
+`$userParameters` is an anonymous function that takes the current identity (`IdentityInterface`) as its parameter
 and returns parameters to show as `array{string: string}` 
 where the key is the name of the parameter and value its value.
 
