@@ -10,4 +10,6 @@ return [
     'user.title.panel' => 'Текущий пользователь',
     'user.title.tab' => 'Текущий пользователь',
     'user.value.guest' => 'Гость',
+    'user.value.no-permissions-granted' => 'Разрешения не предоставлены.',
+    'user.value.no-roles-assigned' => 'Роли не назначены.',
 ];

@@ -10,4 +10,6 @@ return [
     'user.title.panel' => 'Utilisateur actuel',
     'user.title.tab' => 'Utilisateur actuel',
     'user.value.guest' => 'Invité',
+    'user.value.no-permissions-granted' => 'Aucune autorisation accordée',
+    'user.value.no-roles-assigned' => 'Aucun rôle attribué',
 ];
