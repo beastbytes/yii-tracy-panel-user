@@ -10,9 +10,9 @@ Install the package using [Composer](https://getcomposer.org):
 
 Either:
 ```shell
-composer require beastbytes/yii-tracy-panel-user
+composer require-dev beastbytes/yii-tracy-panel-user
 ```
-or add the following to the `require` section of your `composer.json`
+or add the following to the `require-dev` section of your `composer.json`
 ```json
 "beastbytes/yii-tracy-panel-user": "<version_constraint>"
 ```
